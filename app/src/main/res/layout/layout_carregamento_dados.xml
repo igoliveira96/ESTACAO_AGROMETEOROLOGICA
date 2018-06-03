@@ -35,7 +35,7 @@
 
     <LinearLayout
         android:id="@+id/layoutMensagemErroConsultaLL"
-        android:visibility="visible"
+        android:visibility="gone"
         android:gravity="center"
         android:padding="12dp"
         android:orientation="vertical"
@@ -43,7 +43,8 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:src="@drawable/erro_tint"
+            android:src="@drawable/baseline_error_black_48"
+            android:tint="@color/vermelho"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 

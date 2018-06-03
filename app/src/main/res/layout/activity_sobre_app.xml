@@ -76,37 +76,9 @@
                 android:layout_height="120dp" />
 
             <TextView
-                android:text="Referências:"
-                android:padding="12dp"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:textColor="@color/colorPrimaryText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <TextView
-                android:padding="12dp"
-                android:textSize="13sp"
-                android:textStyle="bold"
-                android:lineSpacingMultiplier="1.5"
-                android:textColor="@color/colorPrimaryText"
-                android:text="Ícones:"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <TextView
-                android:padding="12dp"
-                android:textSize="13sp"
-                android:lineSpacingMultiplier="1.5"
-                android:text="Icons8 https://icons8.com.br"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <TextView
                 android:text="Apoio:"
                 android:padding="12dp"
                 android:textSize="20sp"
-                android:layout_marginTop="12dp"
                 android:textStyle="bold"
                 android:textColor="@color/colorPrimaryText"
                 android:layout_width="match_parent"
@@ -120,14 +92,14 @@
                 <ImageView
                     android:src="@drawable/logo_uenp"
                     android:layout_gravity="center"
-                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
                     android:layout_width="120dp"
                     android:layout_height="120dp" />
 
                 <ImageView
                     android:src="@drawable/cct"
                     android:layout_gravity="center"
-                    android:layout_alignParentRight="true"
+                    android:layout_alignParentLeft="true"
                     android:layout_width="120dp"
                     android:layout_height="120dp" />
 

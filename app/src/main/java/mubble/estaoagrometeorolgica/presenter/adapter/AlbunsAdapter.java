@@ -49,11 +49,10 @@ public class AlbunsAdapter extends RecyclerView.Adapter<AlbumHolder> {
         String[] imagens = new String[0];
 
         if(album.imagemCapa != null){
-            try {
-                Picasso.get().load("http://200.201.11.14/estacao/"+album.imagemCapa.caminho).into(holder.capaAlbumIV);
-            } catch (Exception e) {
-                System.out.println(e.getMessage());
-            }
+            Picasso.get().load("http://200.201.11.14/estacao/"+album.imagemCapa.caminho)
+                    .placeholder(R.drawable.padrao)
+                    .error(R.drawable.nao_encontrada)
+                    .into(holder.capaAlbumIV);
         }
 
         if(album.imagens != null && album.imagens.length > 0){

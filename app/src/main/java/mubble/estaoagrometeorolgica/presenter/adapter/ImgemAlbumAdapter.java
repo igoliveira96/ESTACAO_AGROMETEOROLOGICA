@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.facebook.drawee.generic.GenericDraweeHierarchyBuilder;
 import com.squareup.picasso.Picasso;
 import com.stfalcon.frescoimageviewer.ImageViewer;
 
@@ -39,14 +40,23 @@ public class ImgemAlbumAdapter extends RecyclerView.Adapter<ImagemAlbumHolder> {
     public void onBindViewHolder(@NonNull ImagemAlbumHolder holder, int position) {
         final String imagem = imagens[position];
 
-        Picasso.get().load(imagem).into(holder.imagemAlbumIV);
+        Picasso.get().load(imagem)
+                .placeholder(R.drawable.padrao)
+                .error(R.drawable.nao_encontrada)
+                .into(holder.imagemAlbumIV);
 
         holder.setItemClickListener(new ItemClickListener() {
             @Override
             public void onClick(View view, int position) {
                 if(imagens.length > 0){
+                    GenericDraweeHierarchyBuilder hierarchyBuilder = GenericDraweeHierarchyBuilder.newInstance(activity.getResources())
+                            .setFailureImage(R.drawable.nao_encontrada)
+                            .setProgressBarImage(R.drawable.padrao)
+                            .setPlaceholderImage(R.drawable.padrao);
+
                     new ImageViewer.Builder(activity, imagens)
                             .setStartPosition(position)
+                            .setCustomDraweeHierarchyBuilder(hierarchyBuilder)
                             .show();
                 }
             }

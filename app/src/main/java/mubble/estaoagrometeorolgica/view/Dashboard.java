@@ -3,6 +3,8 @@ package mubble.estaoagrometeorolgica.view;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.github.mikephil.charting.components.AxisBase;
@@ -34,8 +36,21 @@ public class Dashboard extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
+    }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_dashboard, menu);
+        return true;
+    }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == R.id.sobreAppIM) {
+            Intent intent = new Intent(this, SobreApp.class);
+            startActivity(intent);
+        }
+        return false;
     }
 
     public void abrirConsultaDados(View view){
@@ -45,11 +60,6 @@ public class Dashboard extends AppCompatActivity {
 
     public void abrirAlbuns(View view){
         Intent intent = new Intent(this, Albuns.class);
-        startActivity(intent);
-    }
-
-    public void abrirSobreApp(View view){
-        Intent intent = new Intent(this, SobreApp.class);
         startActivity(intent);
     }
 
