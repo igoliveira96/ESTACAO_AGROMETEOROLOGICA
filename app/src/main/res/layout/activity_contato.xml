@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    tools:context="mubble.estaoagrometeorolgica.view.Contato">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:padding="12dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:padding="12dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:lineSpacingMultiplier="1.5"
+                    android:textColor="@color/colorPrimaryText"
+                    android:text="Seu nome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/nomeUsuarioET"
+                    android:inputType="text"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:met_primaryColor="@color/colorAccent"
+                    app:met_floatingLabel="highlight"
+                    android:hint="Nome"/>
+
+                <TextView
+                    android:padding="12dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingMultiplier="1.5"
+                    android:textColor="@color/colorPrimaryText"
+                    android:text="Seu e-mail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/emailUsuarioET"
+                    android:inputType="text"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:met_primaryColor="@color/colorAccent"
+                    app:met_floatingLabel="highlight"
+                    android:hint="E-mail"/>
+
+                <TextView
+                    android:padding="12dp"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:lineSpacingMultiplier="1.5"
+                    android:textColor="@color/colorPrimaryText"
+                    android:text="Sua mensagem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/mensagemUsuarioET"
+                    android:inputType="textMultiLine|textCapSentences"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:met_primaryColor="@color/colorAccent"
+                    app:met_maxCharacters="510"
+                    app:met_floatingLabel="highlight"
+                    android:hint="Mensagem"/>
+
+                <info.hoang8f.widget.FButton
+                    android:padding="12dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="Enviar"
+                    android:onClick="enviarMensagem"
+                    android:layout_marginTop="25dp"
+                    android:textColor="@color/branco"
+                    fbutton:buttonColor="@color/colorPrimary"
+                    fbutton:shadowColor="@color/colorPrimaryDark" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

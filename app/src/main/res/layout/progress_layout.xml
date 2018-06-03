@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="15dp"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ProgressBar
+        android:id="@+id/progressBarAlert"
+        android:layout_alignParentLeft="true"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textoProgressBarAlert"
+        android:layout_centerHorizontal="true"
+        android:text="Carregando..."
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/progressBarAlert"/>
+
+</RelativeLayout>

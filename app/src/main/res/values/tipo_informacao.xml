@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipo_informacao">
+        <item>Temperatura</item>
+        <item>Evaporação</item>
+        <item>Insolação</item>
+        <item>Precipitação</item>
+        <item>Termômetro Seco</item>
+        <item>Umidade Relativa do Ar</item>
+    </string-array>
+</resources>

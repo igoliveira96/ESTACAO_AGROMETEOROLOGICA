@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/logo_estacao"
+                android:layout_gravity="center"
+                android:layout_width="320dp"
+                android:layout_height="120dp" />
+
+            <TextView
+                android:text="Desenvolvedores"
+                android:padding="12dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="12dp"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:lineSpacingMultiplier="1.5"
+                android:textColor="@color/colorPrimaryText"
+                android:text="Programador Mobile / Programador Back-end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="12dp"
+                android:textSize="13sp"
+                android:lineSpacingMultiplier="1.5"
+                android:text="Igor Goulart de Oliveira\nigoliveira@uenp.edu.br"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="12dp"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:lineSpacingMultiplier="1.5"
+                android:textColor="@color/colorPrimaryText"
+                android:text="Programador Front-end / Programador Back-end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="12dp"
+                android:textSize="13sp"
+                android:lineSpacingMultiplier="1.5"
+                android:text="Vitor do Prado Ferreira\nvitor.prado@uenp.edu.br"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:src="@drawable/mubble"
+                android:layout_gravity="center"
+                android:layout_width="220dp"
+                android:layout_height="120dp" />
+
+            <TextView
+                android:text="Referências:"
+                android:padding="12dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="12dp"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:lineSpacingMultiplier="1.5"
+                android:textColor="@color/colorPrimaryText"
+                android:text="Ícones:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="12dp"
+                android:textSize="13sp"
+                android:lineSpacingMultiplier="1.5"
+                android:text="Icons8 https://icons8.com.br"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Apoio:"
+                android:padding="12dp"
+                android:textSize="20sp"
+                android:layout_marginTop="12dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:padding="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/logo_uenp"
+                    android:layout_gravity="center"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+                <ImageView
+                    android:src="@drawable/cct"
+                    android:layout_gravity="center"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

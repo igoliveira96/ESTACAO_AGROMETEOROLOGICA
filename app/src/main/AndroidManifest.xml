@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mubble.estaoagrometeorolgica">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".model.aplicacao.Aplicacao"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".view.Dashboard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.ConsultaDados"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.Dashboard" />
+        </activity>
+        <activity
+            android:name=".view.VisualizarDados"
+            android:theme="@style/TemaSemBarra">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.ConsultaDados" />
+        </activity>
+        <activity android:name=".view.Albuns">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.Dashboard" />
+        </activity>
+        <activity android:name=".view.VisualizarAlbum">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.Albuns" />
+        </activity>
+        <activity android:name=".view.SobreApp">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.Dashboard" />
+        </activity>
+        <activity
+            android:windowSoftInputMode="stateHidden"
+            android:name=".view.Contato">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.Dashboard" />
+        </activity>
+    </application>
+
+</manifest>

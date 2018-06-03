@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="cinza">#bdbdbd</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorPrimaryLight">#B2DFDB</color>
+    <color name="textoCor">#757575</color>
+    <color name="vermelho">#F44336</color>
+    <color name="azul">#448AFF</color>
+    <color name="indigo">#3F51B5</color>
+    <color name="corVerde">#4CAF50</color>
+    <color name="branco">#FFF</color>
+    <color name="botao_desabilitado">#cccccc</color>
+    <color name="azul_grafico">#3498db</color>
+    <color name="laranja_medio_grafico">#dd7921</color>
+    <color name="azul_escuro_grafico">#222333</color>
+    <color name="cinza_grafico">#bdc3c7</color>
+</resources>
