@@ -1,4 +1,4 @@
-# ESTACAO_AGROMETEOROLOGICA
+# Aplicativo - Estação Agrometeorológica
 
 Aplicativo desenvolvido para o sistema da Estação Agrometeorológica da UENP.
 
