@@ -22,7 +22,7 @@
                 android:src="@drawable/logo_estacao"
                 android:layout_gravity="center"
                 android:layout_width="320dp"
-                android:layout_height="120dp" />
+                android:layout_height="100dp" />
 
             <TextView
                 android:text="Desenvolvedores"
@@ -92,6 +92,7 @@
                 <ImageView
                     android:src="@drawable/logo_uenp"
                     android:layout_gravity="center"
+                    android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
                     android:layout_width="120dp"
                     android:layout_height="120dp" />
@@ -99,9 +100,10 @@
                 <ImageView
                     android:src="@drawable/cct"
                     android:layout_gravity="center"
+                    android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_width="120dp"
-                    android:layout_height="120dp" />
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
 
             </RelativeLayout>
 

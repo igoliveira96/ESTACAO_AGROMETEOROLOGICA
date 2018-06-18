@@ -85,6 +85,21 @@ public class TermometroSecoTimeLineFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(activity, LinearLayoutManager.VERTICAL, false));
         recyclerView.setHasFixedSize(true);
 
+        layoutProgressBuscandoLL = view.findViewById(R.id.layoutProgressBuscandoTimeLineLL);
+        layoutErroLL = view.findViewById(R.id.layoutErroTimeLineLL);
+        tentarNovamenteFB = view.findViewById(R.id.tenteNovamenteTimeLineFB);
+
+        tentarNovamenteFB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                layoutProgressBuscandoLL.setVisibility(View.VISIBLE);
+                recyclerView.setVisibility(View.GONE);
+                layoutErroLL.setVisibility(View.GONE);
+
+                carregarDados();
+            }
+        });
+
         carregarDados();
 
         return view;

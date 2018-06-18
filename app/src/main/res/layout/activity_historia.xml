@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Nossa história"
+                android:padding="12dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="12dp"
+                android:textSize="13sp"
+                android:lineSpacingMultiplier="1.5"
+                android:text="As atividades da Estação Agrometeorológica iniciaram nos anos 1970."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="12dp"
+                android:textSize="13sp"
+                android:lineSpacingMultiplier="1.5"
+                android:text="No início os equipamentos instalados foram termômetros, seguidos de pluviômetros e radiômetro."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="12dp"
+                android:textSize="13sp"
+                android:lineSpacingMultiplier="1.5"
+                android:text="São feitas 3 leituras diárias, sendo às 09:00 h , às 15:00 h e às 21:00 h."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@color/cinza" />
+
+            <ImageView
+                android:src="@drawable/logo_estacao"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="320dp"
+                android:layout_height="100dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

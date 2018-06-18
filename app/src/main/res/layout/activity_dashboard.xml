@@ -1,77 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center" >
+    android:gravity="center"
+    android:orientation="vertical">
 
     <LinearLayout
-        android:orientation="vertical"
-        android:padding="10dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
 
         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:clipToPadding="false"
             android:gravity="center"
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:orientation="horizontal">
 
             <android.support.v7.widget.CardView
-                android:foreground="?android:attr/selectableItemBackground"
-                android:clickable="true"
                 android:id="@+id/exerciciosCV"
-                android:onClick="abrirConsultaDados"
                 android:layout_width="160dp"
                 android:layout_height="190dp"
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="abrirConsultaDados">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <LinearLayout
-                        android:gravity="center"
-                        android:orientation="vertical"
                         android:layout_width="match_parent"
-                        android:layout_height="110dp">
+                        android:layout_height="110dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
 
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:padding="10dp"
                             android:src="@drawable/baseline_cloud_black_48"
-                            android:tint="@color/colorAccent"
-                            android:padding="10dp"/>
+                            android:tint="@color/colorAccent" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textStyle="bold"
                             android:layout_marginTop="10dp"
-                            android:text="Dados"/>
+                            android:text="Dados"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
+
                     <LinearLayout
-                        android:orientation="vertical"
                         android:layout_width="match_parent"
-                        android:layout_height="80dp">
+                        android:layout_height="80dp"
+                        android:orientation="vertical">
 
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="1dp"
-                            android:background="@color/cinza"
-                            android:layout_margin="10dp"/>
+                            android:layout_margin="10dp"
+                            android:background="@color/cinza" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:text="Dados desde 1974"
                             android:padding="5dp"
-                            android:textColor="@android:color/darker_gray"/>
+                            android:text="Dados desde 1974"
+                            android:textColor="@android:color/darker_gray" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -79,53 +82,59 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:foreground="?android:attr/selectableItemBackground"
-                android:clickable="true"
                 android:layout_width="160dp"
                 android:layout_height="190dp"
-                android:layout_margin="10dp">
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:onClick="abrirHistoria"
+                android:foreground="?android:attr/selectableItemBackground">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <LinearLayout
-                        android:orientation="vertical"
-                        android:gravity="center"
                         android:layout_width="wrap_content"
-                        android:layout_height="110dp">
+                        android:layout_height="110dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
 
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:padding="10dp"
                             android:src="@drawable/baseline_library_books_black_48"
-                            android:tint="@color/colorAccent"
-                            android:padding="10dp"/>
+                            android:tint="@color/colorAccent" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textStyle="bold"
                             android:layout_marginTop="10dp"
-                            android:text="Nossa História"/>
+                            android:text="Nossa História"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
+
                     <LinearLayout
-                        android:orientation="vertical"
                         android:layout_width="match_parent"
-                        android:layout_height="80dp">
+                        android:layout_height="80dp"
+                        android:orientation="vertical">
+
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="1dp"
-                            android:background="@color/cinza"
-                            android:layout_margin="10dp"/>
+                            android:layout_margin="10dp"
+                            android:background="@color/cinza" />
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:text="Conheça nossa história"
                             android:padding="5dp"
-                            android:textColor="@android:color/darker_gray"/>
+                            android:text="Conheça nossa história"
+                            android:textColor="@android:color/darker_gray" />
 
                     </LinearLayout>
 
@@ -135,74 +144,19 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:clipToPadding="false"
             android:gravity="center"
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:orientation="horizontal">
+
             <android.support.v7.widget.CardView
-                android:foreground="?android:attr/selectableItemBackground"
-                android:clickable="true"
-                android:onClick="abrirAlbuns"
                 android:layout_width="160dp"
                 android:layout_height="190dp"
-                android:layout_margin="10dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
-                    <LinearLayout
-                        android:gravity="center"
-                        android:orientation="vertical"
-                        android:layout_width="match_parent"
-                        android:layout_height="110dp">
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/baseline_collections_black_48"
-                            android:tint="@color/colorAccent"
-                            android:padding="10dp"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textStyle="bold"
-                            android:layout_marginTop="10dp"
-                            android:text="Galeria"/>
-
-                    </LinearLayout>
-                    <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_width="match_parent"
-                        android:layout_height="80dp">
-
-                        <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:background="@color/cinza"
-                            android:layout_margin="10dp"/>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:text="Veja nossas fotos"
-                            android:padding="5dp"
-                            android:textColor="@android:color/darker_gray"/>
-
-                    </LinearLayout>
-
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-            <android.support.v7.widget.CardView
-                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_margin="10dp"
                 android:clickable="true"
-                android:onClick="abrirEntrarContato"
-                android:layout_width="160dp"
-                android:layout_height="190dp"
-                android:layout_margin="10dp">
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="abrirAlbuns">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -211,17 +165,77 @@
                     android:orientation="vertical">
 
                     <LinearLayout
-                        android:orientation="vertical"
-                        android:gravity="center"
                         android:layout_width="match_parent"
-                        android:layout_height="110dp">
+                        android:layout_height="110dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
 
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="10dp"
-                            android:tint="@color/colorAccent"
-                            android:src="@drawable/baseline_mail_black_48" />
+                            android:src="@drawable/baseline_collections_black_48"
+                            android:tint="@color/colorAccent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Galeria"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="10dp"
+                            android:background="@color/cinza" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="Veja nossas fotos"
+                            android:textColor="@android:color/darker_gray" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="190dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:onClick="abrirEntrarContato">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:src="@drawable/baseline_mail_black_48"
+                            android:tint="@color/colorAccent" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -233,9 +247,9 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:orientation="vertical"
                         android:layout_width="wrap_content"
-                        android:layout_height="80dp">
+                        android:layout_height="80dp"
+                        android:orientation="vertical">
 
                         <View
                             android:layout_width="match_parent"

@@ -68,6 +68,11 @@ public class Dashboard extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void abrirHistoria(View view){
+        Intent intent = new Intent(this, Historia.class);
+        startActivity(intent);
+    }
+
     @Override
     public void onBackPressed() {
         super.onBackPressed();
