@@ -34,13 +34,13 @@ Vitor do Prado Ferreira
 
 ## Apoio:
 
-[Universidade Estadual do Norte do Paraná - UENP (Campus Luiz Meneghel)](https://uenp.edu.br/)
-
 <img src="https://neat.uenp.edu.br/estacao/content/site/shared/imagens/logo-uenp.png" width="150px" height="175px" >
 
-[Centro de Ciências Tecnológicas](http://cct.uenp.edu.br/)
+[Universidade Estadual do Norte do Paraná - UENP (Campus Luiz Meneghel)](https://uenp.edu.br/)
 
 <img src="https://neat.uenp.edu.br/estacao/content/site/shared/imagens/cct.png" width="100px" height="75px" >
+
+[Centro de Ciências Tecnológicas](http://cct.uenp.edu.br/)
 
 ***
 
