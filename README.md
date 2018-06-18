@@ -1,7 +1,7 @@
 # Aplicativo - Estação Agrometeorológica
 
 <p align="center">
-  <img src="https://github.com/igoliveira96/estacao_agrometeorologica/blob/master/app/src/main/res/drawable/logo_estacao.png" width="500px" height="175" >
+  <img src="https://github.com/igoliveira96/estacao_agrometeorologica/blob/master/app/src/main/res/drawable/logo_estacao.png" width="400px" height="125" >
 </p>
 
 Aplicativo desenvolvido para o sistema da Estação Agrometeorológica da UENP.
