@@ -2,10 +2,8 @@
 
 Aplicativo desenvolvido para o sistema da Estação Agrometeorológica da UENP.
 
-- Site disponível em: http://neat.uenp.edu.br/estacao/
+* Site disponível em: http://neat.uenp.edu.br/estacao/
 
-- Aplicativo disponível em: ***
+* Aplicativo disponível em: 
 
-# Imagens do aplicativo:
-
-*** Adicionar imagens ***
+Informações do apllicativo: [WIKI](https://github.com/igoliveira96/ESTACAO_AGROMETEOROLOGICA/wiki)
