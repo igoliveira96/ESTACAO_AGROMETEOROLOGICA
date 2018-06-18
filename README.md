@@ -16,8 +16,6 @@ Aplicativo desenvolvido para o sistema da Estação Agrometeorológica da UENP.
     <img src="https://github.com/igoliveira96/estacao_agrometeorologica/blob/master/app/src/main/res/drawable/prints/Print%20Esta%C3%A7%C3%A3o%20-%20Dashboard.png" width="275px" height="425px" >
 </td></tr></table>
 
-***
-
 ## Desenvolvido por:
 
 ###### Desenvolvedor mobile e back-end
@@ -36,11 +34,12 @@ Vitor do Prado Ferreira
 
 <img src="https://neat.uenp.edu.br/estacao/content/site/shared/imagens/logo-uenp.png" width="150px" height="175px" >
 
-[Universidade Estadual do Norte do Paraná - UENP (Campus Luiz Meneghel)](https://uenp.edu.br/)
+* [Universidade Estadual do Norte do Paraná - UENP (Campus Luiz Meneghel)](https://uenp.edu.br/)
+
 
 <img src="https://neat.uenp.edu.br/estacao/content/site/shared/imagens/cct.png" width="100px" height="75px" >
 
-[Centro de Ciências Tecnológicas](http://cct.uenp.edu.br/)
+* [Centro de Ciências Tecnológicas](http://cct.uenp.edu.br/)
 
 ***
 
